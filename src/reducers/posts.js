@@ -6,7 +6,7 @@ import { FETCH_ALL, CREATE, UPDATE, DELETE } from '../constants/actionTypes';
       return posts.filter((post) => post._id !== action.payload);
     case UPDATE:
       // case LIKE: // line 9 doing the same thing for UPDATE AND LIKE
-      return posts.map(() => posts._id === action.payload._id ? action.payload : posts);
+      return posts.map(() => posts._id === action.payload._id ? action.payload : post);
     case FETCH_ALL:
        return action.payload;
     case CREATE:
