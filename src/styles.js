@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
     // code for small divices like mobile , but only on small devices
       [theme.breakpoints.down('sm')]: {
         mainContainer: {
-          flexdirection: "column-reverse"
+          flexDirection: "column-reverse"
         }
       }
       

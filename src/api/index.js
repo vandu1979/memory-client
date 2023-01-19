@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 
-const url = 'http://localhost:5000/posts';
+const url = 'https://memory-backend.onrender.com';
 
 // export default function fetchPosts() {
 //  axios.get(url);
